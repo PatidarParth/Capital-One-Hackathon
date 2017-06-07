@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		02A3E9071EE896D700F9B98D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E9061EE896D700F9B98D /* AppDelegate.swift */; };
 		02A3E9091EE896D700F9B98D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E9081EE896D700F9B98D /* FirstViewController.swift */; };
-		02A3E90B1EE896D700F9B98D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E90A1EE896D700F9B98D /* SecondViewController.swift */; };
+		02A3E90B1EE896D700F9B98D /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E90A1EE896D700F9B98D /* SocialViewController.swift */; };
 		02A3E90E1EE896D700F9B98D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A3E90C1EE896D700F9B98D /* Main.storyboard */; };
 		02A3E9101EE896D700F9B98D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A3E90F1EE896D700F9B98D /* Assets.xcassets */; };
 		02A3E9131EE896D700F9B98D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A3E9111EE896D700F9B98D /* LaunchScreen.storyboard */; };
 		02A3E91E1EE896D700F9B98D /* CapitalOne_OnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E91D1EE896D700F9B98D /* CapitalOne_OnboardingTests.swift */; };
 		02A3E9291EE896D800F9B98D /* CapitalOne_OnboardingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E9281EE896D800F9B98D /* CapitalOne_OnboardingUITests.swift */; };
 		02A3E9371EE899F100F9B98D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E9361EE899F100F9B98D /* MainViewController.swift */; };
+		02A3E9391EE8A56300F9B98D /* InternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E9381EE8A56300F9B98D /* InternViewController.swift */; };
+		02A3E93B1EE8A74B00F9B98D /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E93A1EE8A74B00F9B98D /* MessagesViewController.swift */; };
+		02A3E93D1EE8A81800F9B98D /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E93C1EE8A81800F9B98D /* AnnouncementsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		02A3E9031EE896D700F9B98D /* CapitalOne Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CapitalOne Onboarding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A3E9061EE896D700F9B98D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02A3E9081EE896D700F9B98D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		02A3E90A1EE896D700F9B98D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		02A3E90A1EE896D700F9B98D /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 		02A3E90D1EE896D700F9B98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02A3E90F1EE896D700F9B98D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02A3E9121EE896D700F9B98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		02A3E9281EE896D800F9B98D /* CapitalOne_OnboardingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalOne_OnboardingUITests.swift; sourceTree = "<group>"; };
 		02A3E92A1EE896D800F9B98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A3E9361EE899F100F9B98D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		02A3E9381EE8A56300F9B98D /* InternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternViewController.swift; sourceTree = "<group>"; };
+		02A3E93A1EE8A74B00F9B98D /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		02A3E93C1EE8A81800F9B98D /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +110,14 @@
 				02A3E9061EE896D700F9B98D /* AppDelegate.swift */,
 				02A3E9361EE899F100F9B98D /* MainViewController.swift */,
 				02A3E9081EE896D700F9B98D /* FirstViewController.swift */,
-				02A3E90A1EE896D700F9B98D /* SecondViewController.swift */,
+				02A3E90A1EE896D700F9B98D /* SocialViewController.swift */,
 				02A3E90C1EE896D700F9B98D /* Main.storyboard */,
+				02A3E93C1EE8A81800F9B98D /* AnnouncementsViewController.swift */,
 				02A3E90F1EE896D700F9B98D /* Assets.xcassets */,
 				02A3E9111EE896D700F9B98D /* LaunchScreen.storyboard */,
 				02A3E9141EE896D700F9B98D /* Info.plist */,
+				02A3E9381EE8A56300F9B98D /* InternViewController.swift */,
+				02A3E93A1EE8A74B00F9B98D /* MessagesViewController.swift */,
 			);
 			path = "CapitalOne Onboarding";
 			sourceTree = "<group>";
@@ -266,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02A3E90B1EE896D700F9B98D /* SecondViewController.swift in Sources */,
+				02A3E93D1EE8A81800F9B98D /* AnnouncementsViewController.swift in Sources */,
+				02A3E93B1EE8A74B00F9B98D /* MessagesViewController.swift in Sources */,
+				02A3E9391EE8A56300F9B98D /* InternViewController.swift in Sources */,
+				02A3E90B1EE896D700F9B98D /* SocialViewController.swift in Sources */,
 				02A3E9071EE896D700F9B98D /* AppDelegate.swift in Sources */,
 				02A3E9091EE896D700F9B98D /* FirstViewController.swift in Sources */,
 				02A3E9371EE899F100F9B98D /* MainViewController.swift in Sources */,
