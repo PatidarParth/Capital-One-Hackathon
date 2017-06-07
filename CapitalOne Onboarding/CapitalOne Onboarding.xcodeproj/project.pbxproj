@@ -15,6 +15,7 @@
 		02A3E9131EE896D700F9B98D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A3E9111EE896D700F9B98D /* LaunchScreen.storyboard */; };
 		02A3E91E1EE896D700F9B98D /* CapitalOne_OnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E91D1EE896D700F9B98D /* CapitalOne_OnboardingTests.swift */; };
 		02A3E9291EE896D800F9B98D /* CapitalOne_OnboardingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E9281EE896D800F9B98D /* CapitalOne_OnboardingUITests.swift */; };
+		02A3E9371EE899F100F9B98D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E9361EE899F100F9B98D /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		02A3E9241EE896D800F9B98D /* CapitalOne OnboardingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CapitalOne OnboardingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A3E9281EE896D800F9B98D /* CapitalOne_OnboardingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalOne_OnboardingUITests.swift; sourceTree = "<group>"; };
 		02A3E92A1EE896D800F9B98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A3E9361EE899F100F9B98D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				02A3E9061EE896D700F9B98D /* AppDelegate.swift */,
+				02A3E9361EE899F100F9B98D /* MainViewController.swift */,
 				02A3E9081EE896D700F9B98D /* FirstViewController.swift */,
 				02A3E90A1EE896D700F9B98D /* SecondViewController.swift */,
 				02A3E90C1EE896D700F9B98D /* Main.storyboard */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					02A3E9021EE896D700F9B98D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q69N5PK4PC;
 						ProvisioningStyle = Automatic;
 					};
 					02A3E9181EE896D700F9B98D = {
@@ -265,6 +269,7 @@
 				02A3E90B1EE896D700F9B98D /* SecondViewController.swift in Sources */,
 				02A3E9071EE896D700F9B98D /* AppDelegate.swift in Sources */,
 				02A3E9091EE896D700F9B98D /* FirstViewController.swift in Sources */,
+				02A3E9371EE899F100F9B98D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q69N5PK4PC;
 				INFOPLIST_FILE = "CapitalOne Onboarding/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Herro.CapitalOne-Onboarding";
@@ -430,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q69N5PK4PC;
 				INFOPLIST_FILE = "CapitalOne Onboarding/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Herro.CapitalOne-Onboarding";
