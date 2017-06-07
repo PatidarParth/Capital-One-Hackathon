@@ -20,6 +20,7 @@ class InternViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
+
     
 }
 
