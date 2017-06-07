@@ -1,0 +1,6 @@
+framework module Pods_CapitalOne_OnboardingUITests {
+  umbrella header "Pods-CapitalOne OnboardingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

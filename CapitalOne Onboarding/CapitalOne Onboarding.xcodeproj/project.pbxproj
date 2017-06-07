@@ -15,6 +15,9 @@
 		02A3E9131EE896D700F9B98D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A3E9111EE896D700F9B98D /* LaunchScreen.storyboard */; };
 		02A3E91E1EE896D700F9B98D /* CapitalOne_OnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E91D1EE896D700F9B98D /* CapitalOne_OnboardingTests.swift */; };
 		02A3E9291EE896D800F9B98D /* CapitalOne_OnboardingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E9281EE896D800F9B98D /* CapitalOne_OnboardingUITests.swift */; };
+		3FD85D0378C7E706C6A2EC7D /* Pods_CapitalOne_OnboardingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADA0299DB9683B2A1E483AF /* Pods_CapitalOne_OnboardingTests.framework */; };
+		6E9C060EF729B2D36E915487 /* Pods_CapitalOne_OnboardingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935A4D7B1CC56722D963608E /* Pods_CapitalOne_OnboardingUITests.framework */; };
+		75DC456752A912AB327807A8 /* Pods_CapitalOne_Onboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC7D08B1B96F142E1C307A7 /* Pods_CapitalOne_Onboarding.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +45,22 @@
 		02A3E90D1EE896D700F9B98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02A3E90F1EE896D700F9B98D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02A3E9121EE896D700F9B98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		02A3E9141EE896D700F9B98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A3E9141EE896D700F9B98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "CapitalOne Onboarding/Info.plist"; sourceTree = "<group>"; };
 		02A3E9191EE896D700F9B98D /* CapitalOne OnboardingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CapitalOne OnboardingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A3E91D1EE896D700F9B98D /* CapitalOne_OnboardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalOne_OnboardingTests.swift; sourceTree = "<group>"; };
 		02A3E91F1EE896D800F9B98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A3E9241EE896D800F9B98D /* CapitalOne OnboardingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CapitalOne OnboardingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A3E9281EE896D800F9B98D /* CapitalOne_OnboardingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalOne_OnboardingUITests.swift; sourceTree = "<group>"; };
 		02A3E92A1EE896D800F9B98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420259855C0B607294BB5275 /* Pods-CapitalOne OnboardingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalOne OnboardingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalOne OnboardingTests/Pods-CapitalOne OnboardingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4ADA0299DB9683B2A1E483AF /* Pods_CapitalOne_OnboardingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapitalOne_OnboardingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3D497CA982ED11236E2FC7 /* Pods-CapitalOne Onboarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalOne Onboarding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalOne Onboarding/Pods-CapitalOne Onboarding.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4E44DFE71C4708D6F7436A /* Pods-CapitalOne Onboarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalOne Onboarding.release.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalOne Onboarding/Pods-CapitalOne Onboarding.release.xcconfig"; sourceTree = "<group>"; };
+		935A4D7B1CC56722D963608E /* Pods_CapitalOne_OnboardingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapitalOne_OnboardingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC7D08B1B96F142E1C307A7 /* Pods_CapitalOne_Onboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapitalOne_Onboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23E4875517DEB73D934E757 /* Pods-CapitalOne OnboardingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalOne OnboardingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalOne OnboardingTests/Pods-CapitalOne OnboardingTests.release.xcconfig"; sourceTree = "<group>"; };
+		DDB27724BD0C397617DC6FC5 /* Pods-CapitalOne OnboardingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalOne OnboardingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalOne OnboardingUITests/Pods-CapitalOne OnboardingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E287EF58F59FB966943A6111 /* Pods-CapitalOne OnboardingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalOne OnboardingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalOne OnboardingUITests/Pods-CapitalOne OnboardingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DC456752A912AB327807A8 /* Pods_CapitalOne_Onboarding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD85D0378C7E706C6A2EC7D /* Pods_CapitalOne_OnboardingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9C060EF729B2D36E915487 /* Pods_CapitalOne_OnboardingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +94,13 @@
 		02A3E8FA1EE896D700F9B98D = {
 			isa = PBXGroup;
 			children = (
+				02A3E9141EE896D700F9B98D /* Info.plist */,
 				02A3E9051EE896D700F9B98D /* CapitalOne Onboarding */,
 				02A3E91C1EE896D700F9B98D /* CapitalOne OnboardingTests */,
 				02A3E9271EE896D800F9B98D /* CapitalOne OnboardingUITests */,
 				02A3E9041EE896D700F9B98D /* Products */,
+				F3BF90C2B648330D27DFF5B1 /* Pods */,
+				D9C465D763A9A5AA4F7F1D2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +123,6 @@
 				02A3E90C1EE896D700F9B98D /* Main.storyboard */,
 				02A3E90F1EE896D700F9B98D /* Assets.xcassets */,
 				02A3E9111EE896D700F9B98D /* LaunchScreen.storyboard */,
-				02A3E9141EE896D700F9B98D /* Info.plist */,
 			);
 			path = "CapitalOne Onboarding";
 			sourceTree = "<group>";
@@ -128,6 +145,29 @@
 			path = "CapitalOne OnboardingUITests";
 			sourceTree = "<group>";
 		};
+		D9C465D763A9A5AA4F7F1D2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDC7D08B1B96F142E1C307A7 /* Pods_CapitalOne_Onboarding.framework */,
+				4ADA0299DB9683B2A1E483AF /* Pods_CapitalOne_OnboardingTests.framework */,
+				935A4D7B1CC56722D963608E /* Pods_CapitalOne_OnboardingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3BF90C2B648330D27DFF5B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D497CA982ED11236E2FC7 /* Pods-CapitalOne Onboarding.debug.xcconfig */,
+				6D4E44DFE71C4708D6F7436A /* Pods-CapitalOne Onboarding.release.xcconfig */,
+				420259855C0B607294BB5275 /* Pods-CapitalOne OnboardingTests.debug.xcconfig */,
+				C23E4875517DEB73D934E757 /* Pods-CapitalOne OnboardingTests.release.xcconfig */,
+				E287EF58F59FB966943A6111 /* Pods-CapitalOne OnboardingUITests.debug.xcconfig */,
+				DDB27724BD0C397617DC6FC5 /* Pods-CapitalOne OnboardingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02A3E92D1EE896D800F9B98D /* Build configuration list for PBXNativeTarget "CapitalOne Onboarding" */;
 			buildPhases = (
+				546D2EBD4766686ADBD470D6 /* [CP] Check Pods Manifest.lock */,
 				02A3E8FF1EE896D700F9B98D /* Sources */,
 				02A3E9001EE896D700F9B98D /* Frameworks */,
 				02A3E9011EE896D700F9B98D /* Resources */,
+				D18E2B209976AE1D7475F37C /* [CP] Embed Pods Frameworks */,
+				D2FC5FF53E1DC5E44400C447 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02A3E9301EE896D800F9B98D /* Build configuration list for PBXNativeTarget "CapitalOne OnboardingTests" */;
 			buildPhases = (
+				C40CECB415CDFE6448FC376F /* [CP] Check Pods Manifest.lock */,
 				02A3E9151EE896D700F9B98D /* Sources */,
 				02A3E9161EE896D700F9B98D /* Frameworks */,
 				02A3E9171EE896D700F9B98D /* Resources */,
+				507AE6449A27E04F59249E5C /* [CP] Embed Pods Frameworks */,
+				D94FB10439BB320352C56945 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02A3E9331EE896D800F9B98D /* Build configuration list for PBXNativeTarget "CapitalOne OnboardingUITests" */;
 			buildPhases = (
+				580A2491AB8805E8143FA920 /* [CP] Check Pods Manifest.lock */,
 				02A3E9201EE896D800F9B98D /* Sources */,
 				02A3E9211EE896D800F9B98D /* Frameworks */,
 				02A3E9221EE896D800F9B98D /* Resources */,
+				9F403F0ACB70CB2826A89AB7 /* [CP] Embed Pods Frameworks */,
+				A1FBD483ED9D94A5E3C936BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		507AE6449A27E04F59249E5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalOne OnboardingTests/Pods-CapitalOne OnboardingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		546D2EBD4766686ADBD470D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		580A2491AB8805E8143FA920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F403F0ACB70CB2826A89AB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalOne OnboardingUITests/Pods-CapitalOne OnboardingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1FBD483ED9D94A5E3C936BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalOne OnboardingUITests/Pods-CapitalOne OnboardingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40CECB415CDFE6448FC376F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D18E2B209976AE1D7475F37C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalOne Onboarding/Pods-CapitalOne Onboarding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FC5FF53E1DC5E44400C447 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalOne Onboarding/Pods-CapitalOne Onboarding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94FB10439BB320352C56945 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalOne OnboardingTests/Pods-CapitalOne OnboardingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02A3E8FF1EE896D700F9B98D /* Sources */ = {
@@ -416,6 +603,7 @@
 		};
 		02A3E92E1EE896D800F9B98D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3D497CA982ED11236E2FC7 /* Pods-CapitalOne Onboarding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CapitalOne Onboarding/Info.plist";
@@ -428,6 +616,7 @@
 		};
 		02A3E92F1EE896D800F9B98D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4E44DFE71C4708D6F7436A /* Pods-CapitalOne Onboarding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CapitalOne Onboarding/Info.plist";
@@ -440,6 +629,7 @@
 		};
 		02A3E9311EE896D800F9B98D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420259855C0B607294BB5275 /* Pods-CapitalOne OnboardingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		02A3E9321EE896D800F9B98D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23E4875517DEB73D934E757 /* Pods-CapitalOne OnboardingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +659,7 @@
 		};
 		02A3E9341EE896D800F9B98D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E287EF58F59FB966943A6111 /* Pods-CapitalOne OnboardingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "CapitalOne OnboardingUITests/Info.plist";
@@ -481,6 +673,7 @@
 		};
 		02A3E9351EE896D800F9B98D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB27724BD0C397617DC6FC5 /* Pods-CapitalOne OnboardingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "CapitalOne OnboardingUITests/Info.plist";
@@ -511,6 +704,7 @@
 				02A3E92F1EE896D800F9B98D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02A3E9301EE896D800F9B98D /* Build configuration list for PBXNativeTarget "CapitalOne OnboardingTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +713,7 @@
 				02A3E9321EE896D800F9B98D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02A3E9331EE896D800F9B98D /* Build configuration list for PBXNativeTarget "CapitalOne OnboardingUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +722,7 @@
 				02A3E9351EE896D800F9B98D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
