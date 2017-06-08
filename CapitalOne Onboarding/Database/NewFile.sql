@@ -31,4 +31,6 @@ insert into NF_Announcements values (ancid_seq.nextval, to_timestamp_tz('2017-06
 insert into NF_Events values (evid_seq.nextval, to_timestamp_tz('2017-06-09 08:00 America/New_York', 'yyyy-mm-dd hh24:mi tzr'), 
     'Busch Gardens Intern Event');
 insert into NF_Events values (evid_seq.nextval, to_timestamp_tz('2017-07-04 13:00 America/Chicago', 'yyyy-mm-dd hh24:mi tzr'), 
-    'Fourth of July Picnic Lunch');    
+    'Fourth of July Picnic Lunch');
+    
+commit;
