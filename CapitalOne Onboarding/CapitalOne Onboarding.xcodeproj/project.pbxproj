@@ -257,7 +257,6 @@
 				TargetAttributes = {
 					02A3E9021EE896D700F9B98D = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = Q69N5PK4PC;
 						ProvisioningStyle = Automatic;
 					};
 					02A3E9181EE896D700F9B98D = {
@@ -623,7 +622,7 @@
 			baseConfigurationReference = BD3A62617D5B6737B8FF350B /* Pods-CapitalOne Onboarding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Q69N5PK4PC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "CapitalOne Onboarding/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Herro.CapitalOne-Onboarding";
@@ -637,7 +636,7 @@
 			baseConfigurationReference = 3213272691BFF84CF0CC6067 /* Pods-CapitalOne Onboarding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Q69N5PK4PC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "CapitalOne Onboarding/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Herro.CapitalOne-Onboarding";
@@ -723,6 +722,7 @@
 				02A3E92F1EE896D800F9B98D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02A3E9301EE896D800F9B98D /* Build configuration list for PBXNativeTarget "CapitalOne OnboardingTests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +731,7 @@
 				02A3E9321EE896D800F9B98D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02A3E9331EE896D800F9B98D /* Build configuration list for PBXNativeTarget "CapitalOne OnboardingUITests" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +740,7 @@
 				02A3E9351EE896D800F9B98D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
