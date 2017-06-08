@@ -28,6 +28,9 @@ target 'CapitalOne Onboarding' do
     pod 'AWSSimpleDB'
     pod 'AWSSNS'
     pod 'AWSSQS'
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+    pod 'Firebase/Auth'
 
   # Pods for CapitalOne Onboarding
 

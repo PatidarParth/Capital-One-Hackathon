@@ -22,6 +22,8 @@
 		A99A37AAC2814E75FF2EB083 /* Pods_CapitalOne_OnboardingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E4F00EA932EE1277ADFC3C /* Pods_CapitalOne_OnboardingTests.framework */; };
 		B3CA65F59083A7D21B1480DA /* Pods_CapitalOne_OnboardingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62FD1166CE3053FA37169C6 /* Pods_CapitalOne_OnboardingUITests.framework */; };
 		E2AF1C63DCF64B15C75C3974 /* Pods_CapitalOne_Onboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD0793308AB8BA8B4195464 /* Pods_CapitalOne_Onboarding.framework */; };
+		E2D82BAD1EE9A67200C3E6CA /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D82BAB1EE9A67200C3E6CA /* GroceryItem.swift */; };
+		E2D82BAE1EE9A67200C3E6CA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D82BAC1EE9A67200C3E6CA /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		C53D483BD90B9852673274B8 /* Pods-CapitalOne OnboardingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalOne OnboardingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalOne OnboardingUITests/Pods-CapitalOne OnboardingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D62FD1166CE3053FA37169C6 /* Pods_CapitalOne_OnboardingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapitalOne_OnboardingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA7EFA721BDE01794A4904D /* Pods-CapitalOne OnboardingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalOne OnboardingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalOne OnboardingTests/Pods-CapitalOne OnboardingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2D82BAB1EE9A67200C3E6CA /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		E2D82BAC1EE9A67200C3E6CA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 		02A3E9051EE896D700F9B98D /* CapitalOne Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				E2D82BAA1EE9A65E00C3E6CA /* Models */,
 				02A3E9061EE896D700F9B98D /* AppDelegate.swift */,
 				02A3E9361EE899F100F9B98D /* MainViewController.swift */,
 				02A3E9081EE896D700F9B98D /* FirstViewController.swift */,
@@ -178,6 +183,16 @@
 				961D8DAC8CC7EA27706BBBB9 /* Pods-CapitalOne OnboardingUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2D82BAA1EE9A65E00C3E6CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2D82BAB1EE9A67200C3E6CA /* GroceryItem.swift */,
+				E2D82BAC1EE9A67200C3E6CA /* User.swift */,
+			);
+			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,7 +481,9 @@
 				02A3E9391EE8A56300F9B98D /* InternViewController.swift in Sources */,
 				02A3E90B1EE896D700F9B98D /* SocialViewController.swift in Sources */,
 				02A3E9071EE896D700F9B98D /* AppDelegate.swift in Sources */,
+				E2D82BAE1EE9A67200C3E6CA /* User.swift in Sources */,
 				02A3E9091EE896D700F9B98D /* FirstViewController.swift in Sources */,
+				E2D82BAD1EE9A67200C3E6CA /* GroceryItem.swift in Sources */,
 				02A3E9371EE899F100F9B98D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
